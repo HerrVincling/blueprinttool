@@ -27,7 +27,7 @@ a.loadJSON('blank.json')
 
 Then you can use these methods on the object:
 
-loadJSON(path) // This is only used to load a blank json<br>
-saveJSON(path) // This saves the blueprint<br>
-createChildDict() // 
+loadJSON(path) # This is only used to load a blank json<br>
+saveJSON(path) # This saves the blueprint<br>
+createChildDict() # This updates the {block id : block array index} dictionary, do this before making connections!
 </p>
