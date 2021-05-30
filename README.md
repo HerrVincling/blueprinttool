@@ -26,8 +26,30 @@ a.loadJSON('blank.json')
 
 
 Then you can use these methods on the object:
+```python
+loadJSON(path) # This is only used to load a blank json
 
-loadJSON(path) # This is only used to load a blank json<br>
-saveJSON(path) # This saves the blueprint<br>
+saveJSON(path) # This saves the blueprint
+
 createChildDict() # This updates the {block id : block array index} dictionary, do this before making connections!
+
+makeConnection(ID1, ID2) # This creates a connection between two blocks (logic gates)
+
+makeConnections(IDs1, IDs2) # This creates connection between a list of blocks (logic gates)
+
+createLogicGate(x, y, z, color, ID, mode) # Creates a block (logic gate)
+  # Modes: 0=AND, 1=OR, 2=XOR, 3=NAND, 4=NOR, 5=XNOR
+  # Color: '000000' - 'FFFFFF' (Hex String)
+
+createLogicGates(x, y, z, direction, color, IDs, mode) # Creates multiple blocks (logic gates)
+  # Direction: [x, y, z]
+  # Modes: 0=AND, 1=OR, 2=XOR, 3=NAND, 4=NOR, 5=XNOR
+  # Color: '000000' - 'FFFFFF' (Hex String)
+
+wireFrames(IDs1, IDs2, data) # Experimental: Makes connections according to data
+  # Data (length=IDs1*IDs2): [True, False...]
+  # Wires all IDs1 to all IDs2
+
+wireDecoder(inputIDs, negatedInputIDs, outputIDs) # Used to make the connections for a decoder
+```
 </p>
