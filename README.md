@@ -14,25 +14,20 @@ The blueprints can be spawned with /import [name] if the dev mode is activated.
 
 # ConnectionToolV2.py
 
-A small library to create Blueprints consisting of logic gates. \n
-Requires PIL (Pillow), install with:
-
+<p>A small library to create Blueprints consisting of logic gates.<br>
+Requires PIL (Pillow), install with:<br>
 'pip install Pillow'
-
 
 To use it, make a new object of class 'BPJSON()' to get started.
 
-Example:
-
-a = BPJSON()
-
+Example:<br>
+a = BPJSON()<br>
 a.loadJSON('blank.json')
 
 
 Then you can use these methods on the object:
 
-loadJSON(path) // This is only used to load a blank json 
-
-saveJSON(path) // This saves the blueprint
-
+loadJSON(path) // This is only used to load a blank json<br>
+saveJSON(path) // This saves the blueprint<br>
 createChildDict() // 
+</p>
