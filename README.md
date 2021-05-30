@@ -9,6 +9,8 @@ A script for easier importing of blueprints from creative into survival.
 
 Be sure to edit the paths in the script to match with your installation!
 
+The blueprints can be spawned with /import [name] if the dev mode is activated.
+
 
 # ConnectionToolV2.py
 
