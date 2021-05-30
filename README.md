@@ -1,16 +1,16 @@
 # blueprinttool
 
+<p>
 Here's going to be some scripts for Scrap Mechanic's Blueprint System. Everything WIP!
-
+</p>
 
 # survival.py
 
-A script for easier importing of blueprints from creative into survival.
-
-Be sure to edit the paths in the script to match with your installation!
-
+<p>
+A script for easier importing of blueprints from creative into survival.<br>
+Be sure to edit the paths in the script to match with your installation!<br>
 The blueprints can be spawned with /import [name] if the dev mode is activated.
-
+</p>
 
 # ConnectionToolV2.py
 
