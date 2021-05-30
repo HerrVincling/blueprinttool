@@ -55,7 +55,7 @@ wireDecoder(inputIDs, negatedInputIDs, outputIDs) # Used to make the connections
 
 To import data from an image file, use this function:
 ```python
-importFrames(path, frameWidth, frameHeight, horizontalCount, verticalCount) # Seperates image into Chunks
+importFrames(path, frameWidth, frameHeight, horizontalCount, verticalCount) # Extracts binary data from an image file
   # frameWidth & frameHeight = Chunk size
   # horizontalCount & verticalCount = Chunk grid size
   # Returns an bool array [True, False...]
