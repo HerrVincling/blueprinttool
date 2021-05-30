@@ -3,7 +3,7 @@ import os
 import shutil
 
 # Path to your creative blueprints folder
-cbppath = 'C:/Users/vince/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_76561198346659195/Blueprints'
+cbppath = 'C:/Users/[insert username here]/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_76561198346659195/Blueprints'
 
 # Path to your survival blueprints folder
 sbppath = 'C:/Program Files (x86)/Steam/steamapps/common/Scrap Mechanic/Survival/LocalBlueprints'
