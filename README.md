@@ -14,8 +14,7 @@ The blueprints can be spawned with /import [name] if the dev mode is activated.
 
 # ConnectionToolV2.py
 
-A small library to create Blueprints consisting of logic gates.
-
+A small library to create Blueprints consisting of logic gates. \n
 Requires PIL (Pillow), install with:
 
 'pip install Pillow'
