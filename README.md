@@ -20,6 +20,7 @@ Requires PIL (Pillow), install with:
 
 'pip install Pillow'
 
+
 To use it, make a new object of class 'BPJSON()' to get started.
 
 Example:
@@ -27,6 +28,7 @@ Example:
 a = BPJSON()
 
 a.loadJSON('blank.json')
+
 
 Then you can use these methods on the object:
 
