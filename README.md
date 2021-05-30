@@ -52,4 +52,12 @@ wireFrames(IDs1, IDs2, data) # Experimental: Makes connections according to data
 
 wireDecoder(inputIDs, negatedInputIDs, outputIDs) # Used to make the connections for a decoder
 ```
+
+To import data from an image file, use this function:
+```python
+importFrames(path, frameWidth, frameHeight, horizontalCount, verticalCount) # Seperates image into Chunks
+  # frameWidth & frameHeight = Chunk size
+  # horizontalCount & verticalCount = Chunk grid size
+  # See 'img.png' as example
+```
 </p>
