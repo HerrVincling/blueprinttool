@@ -58,6 +58,7 @@ To import data from an image file, use this function:
 importFrames(path, frameWidth, frameHeight, horizontalCount, verticalCount) # Seperates image into Chunks
   # frameWidth & frameHeight = Chunk size
   # horizontalCount & verticalCount = Chunk grid size
+  # Returns an bool array [True, False...]
   # See 'img.png' as example
 ```
 </p>
