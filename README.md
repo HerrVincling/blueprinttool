@@ -4,7 +4,7 @@
 Here's going to be some scripts for Scrap Mechanic's Blueprint System. Everything WIP!
 </p>
 
-# getCreativeBlueprints.py
+## getCreativeBlueprints.py
 
 <p>
 A script to find & get blueprint JSONs from the blueprint folder.<br>
@@ -12,7 +12,7 @@ Be sure to edit the paths in the script to match with your installation!<br>
 The blueprint file will be copied to the same directory where <code>getCreativeBlueprints.py</code> is located.
 </p>
 
-# getWorkshopItem.py
+## getWorkshopItem.py
 
 <p>
 A script to find & get the folder of workshop items.<br>
@@ -20,7 +20,7 @@ Be sure to edit the paths in the script to match with your installation!<br>
 The workshop item folder will be copied to the same directory where <code>getWorkshopItem.py</code> is located.
 </p>
 
-# survival.py
+## survival.py
 
 <p>
 A script for easier importing of blueprints from creative into survival.<br>
@@ -28,7 +28,7 @@ Be sure to edit the paths in the script to match with your installation!<br>
 The blueprints can be spawned with /import [name] if the dev mode is activated.
 </p>
 
-# ConnectionToolV2.py
+## ConnectionToolV2.py
 
 <p>A small module to create Blueprints consisting of logic gates.<br>
 Requires PIL (Pillow), install with:<br>
